@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="alert warning">
+        <span class="closebtn">&times;</span>  
+        <strong>Waarschuwing!</strong> Je moet registreren of inloggen met uw account om het Portfolio te bekijken.
+      </div>
+    <div class="container">
+      <div class="wrapper">
+        <div class="title"><span>Login Form</span></div>
+        <form method="POST" action="./ingelogd/inlog.php">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Email" name="email" required>
+          </div>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" name="wachtwoord" required>
+          </div>
+          <div class="row button">
+            <input type="submit" value="Login" name="submit">
+          </div>
+          <div class="signup-link">Geen account? <a href="./registratie/registreren.html">Registreer hier!</a></div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+  <footer></footer>
+</html>
+
+

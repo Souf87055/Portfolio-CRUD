@@ -1,0 +1,37 @@
+body {
+    background: rgb(5,19,58);
+    background: linear-gradient(90deg, rgba(5,19,58,1) 0%, rgba(33,78,134,1) 35%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    color: #4B0082;
+    font-family: "Poppins", sans-serif;
+}
+
+button {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+button:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
+label{
+    color: #fff;
+}
